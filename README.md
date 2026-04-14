@@ -13,6 +13,7 @@ This project is designed for students and professionals to automate meeting docu
 📌 Automatic action item extraction
 💾 Save meeting notes to file
 🌐 Optional Flask web interface
+
 🛠️ Technologies Used
 Python 3.10+
 OpenAI Whisper / SpeechRecognition
@@ -20,6 +21,7 @@ HuggingFace Transformers
 PyTorch
 Flask (optional web UI)
 Pydub (audio processing)
+
 📁 Project Structure
 meeting_notes_generator/
 │
@@ -39,6 +41,7 @@ meeting_notes_generator/
 │   └── index.html
 │
 └── README.md
+
 ⚙️ Installation
 1. Clone the repository
 git clone https://github.com/your-username/meeting-notes-generator.git
@@ -52,6 +55,8 @@ pip install -r requirements.txt
 If requirements.txt is not available:
 
 pip install whisper transformers torch flask pydub speechrecognition
+
+
 ▶️ How to Run
 CLI Version
 python app.py
@@ -59,6 +64,7 @@ python app.py
 Then enter audio file path:
 
 sample_audio/meeting.wav
+
 🌐 Flask Web Version (optional)
 python app.py
 
@@ -82,6 +88,7 @@ SUMMARY:
 ACTION ITEMS:
 - Task 1 assigned to member A
 - Task 2 deadline set
+
 🧠 Working Flow
 Audio Input
    ↓
@@ -92,21 +99,24 @@ Text Processing (NLP)
 Summarization + Action Extraction
    ↓
 Final Meeting Notes
+
 📌 Applications
 Corporate meetings
 Online classes
 Project discussions
 Interview transcription
+
 ⚠️ Limitations
 Accuracy depends on audio quality
 Background noise may affect results
 Speaker identification is optional and complex
-🔮 Future Improvements
+🔮 Future Improvements 
 Real-time meeting transcription
 Zoom / Google Meet integration
 Speaker diarization
 Multilingual support
 Cloud deployment
+
 👨‍💻 Author
 
 Shibnath Sahoo
